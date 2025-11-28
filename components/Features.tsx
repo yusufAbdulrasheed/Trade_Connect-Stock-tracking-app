@@ -36,7 +36,7 @@ const featureGroups = [
 export function Features() {
   return (
     <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gray-950">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(250,204,21,0.06),transparent_55%),radial-gradient(circle_at_bottom,_rgba(59,130,246,0.25),transparent_55%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(250,204,21,0.06),transparent_55%),radial-gradient(circle_at_bottom,rgba(59,130,246,0.25),transparent_55%)]" />
 
       <div className="relative max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-16">
@@ -69,9 +69,9 @@ export function Features() {
             {featureGroups.map((group) => (
               <div
                 key={group.title}
-                className="relative overflow-hidden rounded-2xl border border-white/5 bg-gradient-to-b from-slate-900/80 via-slate-900/40 to-slate-950/90 p-5 sm:p-6 shadow-[0_18px_60px_rgba(15,23,42,0.8)]"
+                className="relative overflow-hidden rounded-2xl border border-white/5 bg-linear-to-b from-slate-900/80 via-slate-900/40 to-slate-950/90 p-5 sm:p-6 shadow-[0_18px_60px_rgba(15,23,42,0.8)]"
               >
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(250,204,21,0.14),transparent_55%)] opacity-60" />
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(250,204,21,0.14),transparent_55%)] opacity-60" />
                 <div className="relative space-y-4">
                   <h3 className="text-base sm:text-lg font-semibold text-white">
                     {group.title}

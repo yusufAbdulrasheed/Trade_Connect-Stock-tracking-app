@@ -8,7 +8,7 @@ export function Hero({ isAuthenticated = false }: { isAuthenticated?: boolean })
       
 
       {/* subtle gradient overlay on top of video */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-950/80 via-slate-950/70 to-slate-950/90" />
+      <div className="absolute inset-0 bg-linear-to-br from-slate-950/80 via-slate-950/70 to-slate-950/90" />
 
       {/* animated glow orbs */}
       <div className="pointer-events-none absolute inset-0">
@@ -18,8 +18,8 @@ export function Hero({ isAuthenticated = false }: { isAuthenticated?: boolean })
       </div>
 
       {/* animated grid */}
-      <div className="pointer-events-none absolute inset-0 opacity-30 [mask-image:radial-gradient(circle_at_center,white,transparent)]">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,#1f2937_1px,transparent_0)] bg-[size:24px_24px] animate-[slide_40s_linear_infinite]" />
+      <div className="pointer-events-none absolute inset-0 opacity-30 mask-[radial-gradient(circle_at_center,white,transparent)]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,#1f2937_1px,transparent_0)] bg-size-[24px_24px] animate-[slide_40s_linear_infinite]" />
       </div>
 
       <div className="relative z-10 px-4 sm:px-6 md:px-8 max-w-5xl mx-auto flex flex-col items-center text-center">
@@ -27,7 +27,7 @@ export function Hero({ isAuthenticated = false }: { isAuthenticated?: boolean })
           Live markets. Smart alerts. One sleek dashboard.
         </p>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-br from-white via-amber-200 to-amber-500 animate-[fade-up_0.7s_ease-out_forwards]">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight bg-clip-text text-transparent bg-linear-to-br from-white via-amber-200 to-amber-500 animate-[fade-up_0.7s_ease-out_forwards]">
           Turn every signal
           <span className="block text-amber-300">into a trading advantage.</span>
         </h1>
