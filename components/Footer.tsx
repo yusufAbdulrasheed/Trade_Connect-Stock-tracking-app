@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-xl font-bold">Trade Connect</h3>
+          <h3 className="text-xl font-bold">Signalist</h3>
           <p className="mt-2 text-gray-400">
             The future of trading is here.
           </p>
@@ -64,7 +64,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mt-12 border-t border-gray-800 pt-8 text-center text-gray-500">
-        <p>&copy; {new Date().getFullYear()} Trade Connect Developed By Abdulrasheed Yusuf. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Signalist Developed By Abdulrasheed Yusuf. All rights reserved.</p>
       </div>
     </footer>
   );
