@@ -15,7 +15,7 @@ const Header = async ({ user }: { user: User | null }) => {
           <Link href="/" className="flex items-center gap-2">
             <div className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-yellow-400 via-amber-500 to-orange-500 shadow-[0_0_25px_rgba(250,204,21,0.5)]">
               <Image
-                src="/assets/icons/logo.svg"
+                src="/assets/icons/logo-1.svg"
                 alt="Trade Connect"
                 width={26}
                 height={26}
