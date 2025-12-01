@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function WatchlistPage() {
+const WatchlistPage =() => {
   return (
     <main className="min-h-screen bg-gray-950 flex items-center justify-center px-4 relative">
       <Link
@@ -29,3 +29,5 @@ export default function WatchlistPage() {
     </main>
   );
 }
+
+export default WatchlistPage
