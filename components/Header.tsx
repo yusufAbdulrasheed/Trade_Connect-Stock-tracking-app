@@ -12,13 +12,13 @@ const Header = async ({ user }: { user: User | null }) => {
         {/* Left Section: Logo + Desktop Nav */}
         <div className="flex items-center gap-4 md:gap-8">
           <Link href="/" className="flex items-center gap-2">
-            <div className="relative flex h-20 w-20 items-center justify-center rounded-xl">
+            <div className="container header-wrapper">
               <Image
                 src="/assets/icons/logo.svg"
                 alt="Trade Connect"
-                width={100}
-                height={100}
-                className="h-16 w-auto"
+                width={140}
+                height={32}
+                className="h-8 w-auto"
               />
             </div>
 
