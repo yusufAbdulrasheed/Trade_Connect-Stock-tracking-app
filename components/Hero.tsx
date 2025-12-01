@@ -33,7 +33,7 @@ export function Hero({ isAuthenticated = false }: { isAuthenticated?: boolean })
         </h1>
 
         <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-slate-200/80 animate-[fade-up_0.8s_ease-out_forwards]">
-          Trade Connect gives you a real‑time view of the market, curated watchlists,
+          Signalist gives you a real‑time view of the market, curated watchlists,
           and AI‑powered alerts – all inside a beautiful, focused dashboard.
         </p>
 

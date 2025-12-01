@@ -42,13 +42,13 @@ export function Features() {
         <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-16">
           <div className="max-w-md space-y-5">
             <p className="text-xs uppercase tracking-[0.2em] text-amber-300/80">
-              Why traders love Trade Connect
+              Why traders love Signalist
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white">
               A desk‑grade trading cockpit, in your browser.
             </h2>
             <p className="text-sm sm:text-base text-slate-300/80">
-              Trade Connect blends deep market data, responsive charts and intelligent alerts into a
+              Signalist blends deep market data, responsive charts and intelligent alerts into a
               single, distraction‑free workspace. No plug‑ins, no terminals, no clutter.
             </p>
 
